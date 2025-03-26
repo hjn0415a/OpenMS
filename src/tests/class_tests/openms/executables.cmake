@@ -12,6 +12,7 @@ set(concept_executables_list
   UniqueIdGenerator_test
   UniqueIdIndexer_test
   UniqueIdInterface_test
+  Parquet_test
 )
 set(qc_executables_list
   Contaminants_test
