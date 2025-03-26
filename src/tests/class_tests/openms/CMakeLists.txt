@@ -109,3 +109,8 @@ foreach(i ${TEST_executables})
   list(APPEND sources_VS "${i}.cpp")
 endforeach(i)
 source_group("" FILES ${sources_VS})
+
+#------------------------------------------------------------------------------
+#
+include_directories(C:/vcpkg/installed/x64-windows/include)
+link_directories(C:/vcpkg/installed/x64-windows/lib)
